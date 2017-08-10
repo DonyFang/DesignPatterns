@@ -11,6 +11,7 @@
 #import "DelegateViewController.h"
 #import "AdapterViewController.h"
 #import "ProtocoolViewController.h"
+#import "StrategyViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property(nonatomic,strong)UITableView *mainTable;
@@ -53,6 +54,10 @@
         cell.textLabel.text = @"适配器设计模式";
     }else if (indexPath.row == 3){
         cell.textLabel.text = @"协议设计模式";
+    }else if (indexPath.row == 4){
+        cell.textLabel.text = @"策略设计模式";
+
+        
     }
     
     return cell;
@@ -80,6 +85,11 @@
 
         ProtocoolViewController *delegateVC = [[ProtocoolViewController alloc] init];
 
+        [self.navigationController pushViewController:delegateVC animated:YES];
+    }else if (indexPath.row == 4){
+        
+        StrategyViewController *delegateVC = [[StrategyViewController alloc] init];
+        
         [self.navigationController pushViewController:delegateVC animated:YES];
     }
 

@@ -34,6 +34,21 @@
 		D9173D281F39B9EC0069AB3E /* AdapterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9173D261F39B9EC0069AB3E /* AdapterViewController.xib */; };
 		D9173D2B1F39BA5D0069AB3E /* BusinessCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9173D2A1F39BA5D0069AB3E /* BusinessCardView.m */; };
 		D9173D361F39BD870069AB3E /* BusinessCardAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = D9173D351F39BD870069AB3E /* BusinessCardAdapter.m */; };
+		D98090A11F3AAB3100D91D23 /* SpecialModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D98090A01F3AAB3100D91D23 /* SpecialModel.m */; };
+		D98090A41F3AAB4400D91D23 /* SpecialModelAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = D98090A31F3AAB4400D91D23 /* SpecialModelAdapter.m */; };
+		D98090A71F3AAB6100D91D23 /* NormalModelAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = D98090A61F3AAB6100D91D23 /* NormalModelAdapter.m */; };
+		D98090AA1F3AAB6D00D91D23 /* NormalModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D98090A91F3AAB6D00D91D23 /* NormalModel.m */; };
+		D98090AD1F3AB7E700D91D23 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D98090AC1F3AB7E700D91D23 /* BaseModel.m */; };
+		D98090F71F3AE95000D91D23 /* StrategyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D98090F51F3AE95000D91D23 /* StrategyViewController.m */; };
+		D98090F81F3AE95000D91D23 /* StrategyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D98090F61F3AE95000D91D23 /* StrategyViewController.xib */; };
+		D98090FB1F3AE96F00D91D23 /* CustomeTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D98090FA1F3AE96F00D91D23 /* CustomeTextField.m */; };
+		D98090FE1F3AE99E00D91D23 /* InputValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = D98090FD1F3AE99E00D91D23 /* InputValidator.m */; };
+		D98091011F3AEBE500D91D23 /* EmailValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = D98091001F3AEBE500D91D23 /* EmailValidator.m */; };
+		D98091041F3AEBF400D91D23 /* PhoneNumberValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = D98091031F3AEBF400D91D23 /* PhoneNumberValidator.m */; };
+		D980910D1F3AEC0400D91D23 /* RegExCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = D98091061F3AEC0400D91D23 /* RegExCategories.m */; };
+		D980910E1F3AEC0400D91D23 /* UIButton+inits.m in Sources */ = {isa = PBXBuildFile; fileRef = D98091081F3AEC0400D91D23 /* UIButton+inits.m */; };
+		D980910F1F3AEC0400D91D23 /* UIInfomationView.m in Sources */ = {isa = PBXBuildFile; fileRef = D980910A1F3AEC0400D91D23 /* UIInfomationView.m */; };
+		D98091101F3AEC0400D91D23 /* UIView+SetRect.m in Sources */ = {isa = PBXBuildFile; fileRef = D980910C1F3AEC0400D91D23 /* UIView+SetRect.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,8 +121,37 @@
 		D9173D291F39BA5D0069AB3E /* BusinessCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessCardView.h; sourceTree = "<group>"; };
 		D9173D2A1F39BA5D0069AB3E /* BusinessCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessCardView.m; sourceTree = "<group>"; };
 		D9173D331F39BC5C0069AB3E /* BusinessCardAdapterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessCardAdapterProtocol.h; sourceTree = "<group>"; };
-		D9173D341F39BD870069AB3E /* BusinessCardAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessCardAdapter.h; sourceTree = "<group>"; };
-		D9173D351F39BD870069AB3E /* BusinessCardAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessCardAdapter.m; sourceTree = "<group>"; };
+		D9173D341F39BD870069AB3E /* BusinessCardAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BusinessCardAdapter.h; path = ../Model/BusinessCardAdapter.h; sourceTree = "<group>"; };
+		D9173D351F39BD870069AB3E /* BusinessCardAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BusinessCardAdapter.m; path = ../Model/BusinessCardAdapter.m; sourceTree = "<group>"; };
+		D980909F1F3AAB3100D91D23 /* SpecialModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpecialModel.h; path = ../NormalModel/SpecialModel.h; sourceTree = "<group>"; };
+		D98090A01F3AAB3100D91D23 /* SpecialModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SpecialModel.m; path = ../NormalModel/SpecialModel.m; sourceTree = "<group>"; };
+		D98090A21F3AAB4400D91D23 /* SpecialModelAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpecialModelAdapter.h; path = ../NormalModel/SpecialModelAdapter.h; sourceTree = "<group>"; };
+		D98090A31F3AAB4400D91D23 /* SpecialModelAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SpecialModelAdapter.m; path = ../NormalModel/SpecialModelAdapter.m; sourceTree = "<group>"; };
+		D98090A51F3AAB6100D91D23 /* NormalModelAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalModelAdapter.h; sourceTree = "<group>"; };
+		D98090A61F3AAB6100D91D23 /* NormalModelAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalModelAdapter.m; sourceTree = "<group>"; };
+		D98090A81F3AAB6D00D91D23 /* NormalModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalModel.h; sourceTree = "<group>"; };
+		D98090A91F3AAB6D00D91D23 /* NormalModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalModel.m; sourceTree = "<group>"; };
+		D98090AB1F3AB7E700D91D23 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		D98090AC1F3AB7E700D91D23 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		D98090F41F3AE95000D91D23 /* StrategyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrategyViewController.h; sourceTree = "<group>"; };
+		D98090F51F3AE95000D91D23 /* StrategyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrategyViewController.m; sourceTree = "<group>"; };
+		D98090F61F3AE95000D91D23 /* StrategyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StrategyViewController.xib; sourceTree = "<group>"; };
+		D98090F91F3AE96F00D91D23 /* CustomeTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomeTextField.h; sourceTree = "<group>"; };
+		D98090FA1F3AE96F00D91D23 /* CustomeTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomeTextField.m; sourceTree = "<group>"; };
+		D98090FC1F3AE99E00D91D23 /* InputValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputValidator.h; sourceTree = "<group>"; };
+		D98090FD1F3AE99E00D91D23 /* InputValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputValidator.m; sourceTree = "<group>"; };
+		D98090FF1F3AEBE500D91D23 /* EmailValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmailValidator.h; sourceTree = "<group>"; };
+		D98091001F3AEBE500D91D23 /* EmailValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmailValidator.m; sourceTree = "<group>"; };
+		D98091021F3AEBF400D91D23 /* PhoneNumberValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneNumberValidator.h; sourceTree = "<group>"; };
+		D98091031F3AEBF400D91D23 /* PhoneNumberValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneNumberValidator.m; sourceTree = "<group>"; };
+		D98091051F3AEC0400D91D23 /* RegExCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegExCategories.h; sourceTree = "<group>"; };
+		D98091061F3AEC0400D91D23 /* RegExCategories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegExCategories.m; sourceTree = "<group>"; };
+		D98091071F3AEC0400D91D23 /* UIButton+inits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+inits.h"; sourceTree = "<group>"; };
+		D98091081F3AEC0400D91D23 /* UIButton+inits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+inits.m"; sourceTree = "<group>"; };
+		D98091091F3AEC0400D91D23 /* UIInfomationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIInfomationView.h; sourceTree = "<group>"; };
+		D980910A1F3AEC0400D91D23 /* UIInfomationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIInfomationView.m; sourceTree = "<group>"; };
+		D980910B1F3AEC0400D91D23 /* UIView+SetRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SetRect.h"; sourceTree = "<group>"; };
+		D980910C1F3AEC0400D91D23 /* UIView+SetRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SetRect.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +243,7 @@
 		D9173CAE1F39A45B0069AB3E /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				D98090F01F3AE93600D91D23 /* Strategy */,
 				9872880B1F3A0CFF00BF3054 /* Protocool */,
 				D9173D201F39B9DC0069AB3E /* Adapter */,
 				D9173D141F39B63F0069AB3E /* BridgeConnection */,
@@ -372,8 +417,8 @@
 		D9173D221F39B9DC0069AB3E /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				D9173D341F39BD870069AB3E /* BusinessCardAdapter.h */,
-				D9173D351F39BD870069AB3E /* BusinessCardAdapter.m */,
+				D980909D1F3AAB1E00D91D23 /* NormalModel */,
+				D980909E1F3AAB1E00D91D23 /* SpecialModel */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -381,6 +426,8 @@
 		D9173D231F39B9DC0069AB3E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D9173D341F39BD870069AB3E /* BusinessCardAdapter.h */,
+				D9173D351F39BD870069AB3E /* BusinessCardAdapter.m */,
 				D9173D291F39BA5D0069AB3E /* BusinessCardView.h */,
 				D9173D2A1F39BA5D0069AB3E /* BusinessCardView.m */,
 			);
@@ -394,6 +441,80 @@
 			);
 			name = Protocool;
 			path = ../BridgeConnection/Protocool;
+			sourceTree = "<group>";
+		};
+		D980909D1F3AAB1E00D91D23 /* NormalModel */ = {
+			isa = PBXGroup;
+			children = (
+				D98090A51F3AAB6100D91D23 /* NormalModelAdapter.h */,
+				D98090A61F3AAB6100D91D23 /* NormalModelAdapter.m */,
+				D98090A81F3AAB6D00D91D23 /* NormalModel.h */,
+				D98090A91F3AAB6D00D91D23 /* NormalModel.m */,
+				D98090AB1F3AB7E700D91D23 /* BaseModel.h */,
+				D98090AC1F3AB7E700D91D23 /* BaseModel.m */,
+			);
+			path = NormalModel;
+			sourceTree = "<group>";
+		};
+		D980909E1F3AAB1E00D91D23 /* SpecialModel */ = {
+			isa = PBXGroup;
+			children = (
+				D980909F1F3AAB3100D91D23 /* SpecialModel.h */,
+				D98090A01F3AAB3100D91D23 /* SpecialModel.m */,
+				D98090A21F3AAB4400D91D23 /* SpecialModelAdapter.h */,
+				D98090A31F3AAB4400D91D23 /* SpecialModelAdapter.m */,
+			);
+			path = SpecialModel;
+			sourceTree = "<group>";
+		};
+		D98090F01F3AE93600D91D23 /* Strategy */ = {
+			isa = PBXGroup;
+			children = (
+				D98090F11F3AE93600D91D23 /* Model */,
+				D98090F21F3AE93600D91D23 /* View */,
+				D98090F31F3AE93600D91D23 /* ViewController */,
+			);
+			path = Strategy;
+			sourceTree = "<group>";
+		};
+		D98090F11F3AE93600D91D23 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D98091021F3AEBF400D91D23 /* PhoneNumberValidator.h */,
+				D98091031F3AEBF400D91D23 /* PhoneNumberValidator.m */,
+				D98090FF1F3AEBE500D91D23 /* EmailValidator.h */,
+				D98091001F3AEBE500D91D23 /* EmailValidator.m */,
+				D98090FC1F3AE99E00D91D23 /* InputValidator.h */,
+				D98090FD1F3AE99E00D91D23 /* InputValidator.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D98090F21F3AE93600D91D23 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D98091051F3AEC0400D91D23 /* RegExCategories.h */,
+				D98091061F3AEC0400D91D23 /* RegExCategories.m */,
+				D98091071F3AEC0400D91D23 /* UIButton+inits.h */,
+				D98091081F3AEC0400D91D23 /* UIButton+inits.m */,
+				D98091091F3AEC0400D91D23 /* UIInfomationView.h */,
+				D980910A1F3AEC0400D91D23 /* UIInfomationView.m */,
+				D980910B1F3AEC0400D91D23 /* UIView+SetRect.h */,
+				D980910C1F3AEC0400D91D23 /* UIView+SetRect.m */,
+				D98090F91F3AE96F00D91D23 /* CustomeTextField.h */,
+				D98090FA1F3AE96F00D91D23 /* CustomeTextField.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D98090F31F3AE93600D91D23 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D98090F41F3AE95000D91D23 /* StrategyViewController.h */,
+				D98090F51F3AE95000D91D23 /* StrategyViewController.m */,
+				D98090F61F3AE95000D91D23 /* StrategyViewController.xib */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -509,6 +630,7 @@
 				987288131F3A0D1F00BF3054 /* ProtocoolViewController.xib in Resources */,
 				D9173CFF1F39AC600069AB3E /* DecoratorPatternsViewController.xib in Resources */,
 				D9173D0A1F39ACBA0069AB3E /* DelegateViewController.xib in Resources */,
+				D98090F81F3AE95000D91D23 /* StrategyViewController.xib in Resources */,
 				D9173D281F39B9EC0069AB3E /* AdapterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -534,18 +656,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D980910E1F3AEC0400D91D23 /* UIButton+inits.m in Sources */,
 				D9173D1C1F39B6B90069AB3E /* ConsoleEmulator.m in Sources */,
+				D98090A11F3AAB3100D91D23 /* SpecialModel.m in Sources */,
+				D98090F71F3AE95000D91D23 /* StrategyViewController.m in Sources */,
+				D98090A71F3AAB6100D91D23 /* NormalModelAdapter.m in Sources */,
 				D9173D361F39BD870069AB3E /* BusinessCardAdapter.m in Sources */,
+				D980910F1F3AEC0400D91D23 /* UIInfomationView.m in Sources */,
 				D9173D271F39B9EC0069AB3E /* AdapterViewController.m in Sources */,
 				987288161F3A0D3400BF3054 /* Computer.m in Sources */,
 				D9173D2B1F39BA5D0069AB3E /* BusinessCardView.m in Sources */,
 				D9173D121F39AD7A0069AB3E /* LoginViewController.m in Sources */,
 				D9173D011F39AC600069AB3E /* Milk.m in Sources */,
 				D9173CB71F39A45C0069AB3E /* ViewController.m in Sources */,
+				D98090AA1F3AAB6D00D91D23 /* NormalModel.m in Sources */,
+				D98091101F3AEC0400D91D23 /* UIView+SetRect.m in Sources */,
 				D9173D091F39ACBA0069AB3E /* DelegateViewController.m in Sources */,
 				987288121F3A0D1F00BF3054 /* ProtocoolViewController.m in Sources */,
+				D98090FB1F3AE96F00D91D23 /* CustomeTextField.m in Sources */,
 				D9173CFE1F39AC600069AB3E /* DecoratorPatternsViewController.m in Sources */,
+				D98090AD1F3AB7E700D91D23 /* BaseModel.m in Sources */,
 				D9173D001F39AC600069AB3E /* Espresso.m in Sources */,
+				D98090A41F3AAB4400D91D23 /* SpecialModelAdapter.m in Sources */,
+				D98091011F3AEBE500D91D23 /* EmailValidator.m in Sources */,
+				D98091041F3AEBF400D91D23 /* PhoneNumberValidator.m in Sources */,
+				D980910D1F3AEC0400D91D23 /* RegExCategories.m in Sources */,
+				D98090FE1F3AE99E00D91D23 /* InputValidator.m in Sources */,
 				987288191F3A0D3B00BF3054 /* Disk.m in Sources */,
 				D9173CB41F39A45C0069AB3E /* AppDelegate.m in Sources */,
 				D9173D191F39B6AB0069AB3E /* ConsoleController.m in Sources */,
