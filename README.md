@@ -37,6 +37,16 @@ DesignPatterns 是一个设计模式的集合，里面涵盖了很多常用的�
 2、需要算法的各种变体。
 3、 对客户隐藏具体策略(算法)的实现细节，彼此完全独立。
 
-   
+六： 工厂方法
+    工厂方法模式：定义创建对象的接口，让子类决定实例化哪一个类。工厂方法使得一个类的实例化延迟到其子类。
+    工厂方法的使用场景
+    编译时无法准确预期要创建的对象的类；
+    类想让子类决定在运行时创建什么；
+    类有若干辅助类为其子类，而你想将返回哪个子类这一信息局部话；
+    工厂方法在CocoaTouch中的应用
+
+    在Objective-C中两步对象创建法[[SomeClass alloc] init].但是还有一些便利的创建方法。例如,NSNumber有很多numberWith*方法；其中有两个是numberWithBool:和numberWithChar:。它们是类方法，也就是说我们向NSNumber发送[[NSNumber numberWithBool:bool]]与[[NSNumber numberWithChar:char]],以获得与传入参数同类型的各种NSNumber实例。与如何创建NSNumber的具体子类型的实例有关的细节，都有NSNumber的类工厂方法负责。[[NSNumber numberWithBool:bool]]的情况是，方法接受值bool，并把NSNumber的内部子类的一个实例初始化，让它能够反应传入的值。
+
+
    
 
