@@ -51,6 +51,6 @@ DesignPatterns 是一个设计模式的集合，里面涵盖了很多常用的�
 
     在Objective-C中两步对象创建法[[SomeClass alloc] init].但是还有一些便利的创建方法。例如,NSNumber有很多numberWith*方法；其中有两个是numberWithBool:和numberWithChar:。它们是类方法，也就是说我们向NSNumber发送[[NSNumber numberWithBool:bool]]与[[NSNumber numberWithChar:char]],以获得与传入参数同类型的各种NSNumber实例。与如何创建NSNumber的具体子类型的实例有关的细节，都有NSNumber的类工厂方法负责。[[NSNumber numberWithBool:bool]]的情况是，方法接受值bool，并把NSNumber的内部子类的一个实例初始化，让它能够反应传入的值。
 
-
-   
+七： 生成器设计模式
+有时候，构建某些对象有多种不同方式。如果这些逻辑包含在构建这些对象的类中的单一方法中，构建的逻辑会非常荒唐（例如，针对各种构建需求的一大片嵌套if-else或者switch-case语句）。如果能把构建过程分解为：客户-指导者-生成器（client-director-builder）的关系，那么过程将更容易管理与复用。针对此类关系的设计模式称为生成器。
 
