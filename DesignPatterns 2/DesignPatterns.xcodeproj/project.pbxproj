@@ -55,6 +55,18 @@
 		D980911F1F3C39B000D91D23 /* ImageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D980911E1F3C39B000D91D23 /* ImageControl.m */; };
 		D98091211F3C3DB700D91D23 /* photo.png in Resources */ = {isa = PBXBuildFile; fileRef = D98091201F3C3DB700D91D23 /* photo.png */; };
 		D980912A1F3C435B00D91D23 /* NSObject+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = D98091291F3C435B00D91D23 /* NSObject+Extension.m */; };
+		D98091341F3D575800D91D23 /* FactoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D98091321F3D575800D91D23 /* FactoryViewController.m */; };
+		D98091351F3D575800D91D23 /* FactoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D98091331F3D575800D91D23 /* FactoryViewController.xib */; };
+		D980913A1F3D57B600D91D23 /* DeviceCreater.m in Sources */ = {isa = PBXBuildFile; fileRef = D98091391F3D57B600D91D23 /* DeviceCreater.m */; };
+		D980913D1F3D587F00D91D23 /* AndriodDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = D980913C1F3D587F00D91D23 /* AndriodDevice.m */; };
+		D98091401F3D588C00D91D23 /* AppleDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = D980913F1F3D588C00D91D23 /* AppleDevice.m */; };
+		D98091431F3D58B700D91D23 /* BaseDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = D98091421F3D58B700D91D23 /* BaseDevice.m */; };
+		D980914B1F3D643D00D91D23 /* BuildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D98091491F3D643D00D91D23 /* BuildViewController.m */; };
+		D980914C1F3D643D00D91D23 /* BuildViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D980914A1F3D643D00D91D23 /* BuildViewController.xib */; };
+		D98091501F3D649400D91D23 /* VehicleBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = D980914F1F3D649400D91D23 /* VehicleBuilder.m */; };
+		D98091541F3D67A900D91D23 /* SportsCar.m in Sources */ = {isa = PBXBuildFile; fileRef = D98091531F3D67A900D91D23 /* SportsCar.m */; };
+		D98091571F3D67B300D91D23 /* Bus.m in Sources */ = {isa = PBXBuildFile; fileRef = D98091561F3D67B300D91D23 /* Bus.m */; };
+		D980915A1F3D680C00D91D23 /* VehicleAssemblyPlant.m in Sources */ = {isa = PBXBuildFile; fileRef = D98091591F3D680C00D91D23 /* VehicleAssemblyPlant.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -168,6 +180,30 @@
 		D98091201F3C3DB700D91D23 /* photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo.png; sourceTree = "<group>"; };
 		D98091281F3C435B00D91D23 /* NSObject+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Extension.h"; sourceTree = "<group>"; };
 		D98091291F3C435B00D91D23 /* NSObject+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Extension.m"; sourceTree = "<group>"; };
+		D98091311F3D575800D91D23 /* FactoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoryViewController.h; sourceTree = "<group>"; };
+		D98091321F3D575800D91D23 /* FactoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactoryViewController.m; sourceTree = "<group>"; };
+		D98091331F3D575800D91D23 /* FactoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FactoryViewController.xib; sourceTree = "<group>"; };
+		D98091371F3D579700D91D23 /* CreatProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreatProtocol.h; sourceTree = "<group>"; };
+		D98091381F3D57B600D91D23 /* DeviceCreater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceCreater.h; sourceTree = "<group>"; };
+		D98091391F3D57B600D91D23 /* DeviceCreater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceCreater.m; sourceTree = "<group>"; };
+		D980913B1F3D587F00D91D23 /* AndriodDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndriodDevice.h; sourceTree = "<group>"; };
+		D980913C1F3D587F00D91D23 /* AndriodDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AndriodDevice.m; sourceTree = "<group>"; };
+		D980913E1F3D588C00D91D23 /* AppleDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleDevice.h; sourceTree = "<group>"; };
+		D980913F1F3D588C00D91D23 /* AppleDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleDevice.m; sourceTree = "<group>"; };
+		D98091411F3D58B700D91D23 /* BaseDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDevice.h; sourceTree = "<group>"; };
+		D98091421F3D58B700D91D23 /* BaseDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseDevice.m; sourceTree = "<group>"; };
+		D98091481F3D643D00D91D23 /* BuildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuildViewController.h; sourceTree = "<group>"; };
+		D98091491F3D643D00D91D23 /* BuildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuildViewController.m; sourceTree = "<group>"; };
+		D980914A1F3D643D00D91D23 /* BuildViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BuildViewController.xib; sourceTree = "<group>"; };
+		D980914D1F3D646E00D91D23 /* VehicleBuilderProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleBuilderProtocol.h; sourceTree = "<group>"; };
+		D980914E1F3D649400D91D23 /* VehicleBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleBuilder.h; sourceTree = "<group>"; };
+		D980914F1F3D649400D91D23 /* VehicleBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VehicleBuilder.m; sourceTree = "<group>"; };
+		D98091521F3D67A900D91D23 /* SportsCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SportsCar.h; sourceTree = "<group>"; };
+		D98091531F3D67A900D91D23 /* SportsCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SportsCar.m; sourceTree = "<group>"; };
+		D98091551F3D67B300D91D23 /* Bus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bus.h; sourceTree = "<group>"; };
+		D98091561F3D67B300D91D23 /* Bus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bus.m; sourceTree = "<group>"; };
+		D98091581F3D680C00D91D23 /* VehicleAssemblyPlant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleAssemblyPlant.h; sourceTree = "<group>"; };
+		D98091591F3D680C00D91D23 /* VehicleAssemblyPlant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VehicleAssemblyPlant.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -259,6 +295,8 @@
 		D9173CAE1F39A45B0069AB3E /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				D98091441F3D642800D91D23 /* Builder */,
+				D980912D1F3D574300D91D23 /* Factory */,
 				D98091111F3C334800D91D23 /* Target_action */,
 				D98090F01F3AE93600D91D23 /* Strategy */,
 				9872880B1F3A0CFF00BF3054 /* Protocool */,
@@ -575,6 +613,108 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		D980912D1F3D574300D91D23 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				D98091361F3D576D00D91D23 /* Protocool */,
+				D980912E1F3D574300D91D23 /* Controller */,
+				D980912F1F3D574300D91D23 /* Model */,
+				D98091301F3D574300D91D23 /* View */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		D980912E1F3D574300D91D23 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D98091311F3D575800D91D23 /* FactoryViewController.h */,
+				D98091321F3D575800D91D23 /* FactoryViewController.m */,
+				D98091331F3D575800D91D23 /* FactoryViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D980912F1F3D574300D91D23 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D98091381F3D57B600D91D23 /* DeviceCreater.h */,
+				D98091391F3D57B600D91D23 /* DeviceCreater.m */,
+				D980913B1F3D587F00D91D23 /* AndriodDevice.h */,
+				D980913C1F3D587F00D91D23 /* AndriodDevice.m */,
+				D980913E1F3D588C00D91D23 /* AppleDevice.h */,
+				D980913F1F3D588C00D91D23 /* AppleDevice.m */,
+				D98091411F3D58B700D91D23 /* BaseDevice.h */,
+				D98091421F3D58B700D91D23 /* BaseDevice.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D98091301F3D574300D91D23 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D98091361F3D576D00D91D23 /* Protocool */ = {
+			isa = PBXGroup;
+			children = (
+				D98091371F3D579700D91D23 /* CreatProtocol.h */,
+			);
+			path = Protocool;
+			sourceTree = "<group>";
+		};
+		D98091441F3D642800D91D23 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				D98091511F3D679900D91D23 /* Model */,
+				D98091451F3D642800D91D23 /* Controller */,
+				D98091461F3D642800D91D23 /* CreatConfiguration */,
+				D98091471F3D642800D91D23 /* Protocol */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		D98091451F3D642800D91D23 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D98091481F3D643D00D91D23 /* BuildViewController.h */,
+				D98091491F3D643D00D91D23 /* BuildViewController.m */,
+				D980914A1F3D643D00D91D23 /* BuildViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D98091461F3D642800D91D23 /* CreatConfiguration */ = {
+			isa = PBXGroup;
+			children = (
+				D980914E1F3D649400D91D23 /* VehicleBuilder.h */,
+				D980914F1F3D649400D91D23 /* VehicleBuilder.m */,
+				D98091581F3D680C00D91D23 /* VehicleAssemblyPlant.h */,
+				D98091591F3D680C00D91D23 /* VehicleAssemblyPlant.m */,
+			);
+			path = CreatConfiguration;
+			sourceTree = "<group>";
+		};
+		D98091471F3D642800D91D23 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				D980914D1F3D646E00D91D23 /* VehicleBuilderProtocol.h */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		D98091511F3D679900D91D23 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D98091521F3D67A900D91D23 /* SportsCar.h */,
+				D98091531F3D67A900D91D23 /* SportsCar.m */,
+				D98091551F3D67B300D91D23 /* Bus.h */,
+				D98091561F3D67B300D91D23 /* Bus.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -686,9 +826,11 @@
 				D9173CBC1F39A45C0069AB3E /* Assets.xcassets in Resources */,
 				D98091191F3C335A00D91D23 /* TaegetViewController.xib in Resources */,
 				D9173D131F39AD7A0069AB3E /* LoginViewController.xib in Resources */,
+				D98091351F3D575800D91D23 /* FactoryViewController.xib in Resources */,
 				D9173CBA1F39A45C0069AB3E /* Main.storyboard in Resources */,
 				987288131F3A0D1F00BF3054 /* ProtocoolViewController.xib in Resources */,
 				D9173CFF1F39AC600069AB3E /* DecoratorPatternsViewController.xib in Resources */,
+				D980914C1F3D643D00D91D23 /* BuildViewController.xib in Resources */,
 				D9173D0A1F39ACBA0069AB3E /* DelegateViewController.xib in Resources */,
 				D98090F81F3AE95000D91D23 /* StrategyViewController.xib in Resources */,
 				D9173D281F39B9EC0069AB3E /* AdapterViewController.xib in Resources */,
@@ -720,6 +862,7 @@
 				D9173D1C1F39B6B90069AB3E /* ConsoleEmulator.m in Sources */,
 				D98090A11F3AAB3100D91D23 /* SpecialModel.m in Sources */,
 				D98090F71F3AE95000D91D23 /* StrategyViewController.m in Sources */,
+				D98091501F3D649400D91D23 /* VehicleBuilder.m in Sources */,
 				D98090A71F3AAB6100D91D23 /* NormalModelAdapter.m in Sources */,
 				D9173D361F39BD870069AB3E /* BusinessCardAdapter.m in Sources */,
 				D980910F1F3AEC0400D91D23 /* UIInfomationView.m in Sources */,
@@ -729,12 +872,17 @@
 				D98091181F3C335A00D91D23 /* TaegetViewController.m in Sources */,
 				D980912A1F3C435B00D91D23 /* NSObject+Extension.m in Sources */,
 				D9173D121F39AD7A0069AB3E /* LoginViewController.m in Sources */,
+				D98091341F3D575800D91D23 /* FactoryViewController.m in Sources */,
 				D9173D011F39AC600069AB3E /* Milk.m in Sources */,
 				D9173CB71F39A45C0069AB3E /* ViewController.m in Sources */,
 				D98090AA1F3AAB6D00D91D23 /* NormalModel.m in Sources */,
+				D980915A1F3D680C00D91D23 /* VehicleAssemblyPlant.m in Sources */,
 				D98091101F3AEC0400D91D23 /* UIView+SetRect.m in Sources */,
 				D9173D091F39ACBA0069AB3E /* DelegateViewController.m in Sources */,
 				987288121F3A0D1F00BF3054 /* ProtocoolViewController.m in Sources */,
+				D980913A1F3D57B600D91D23 /* DeviceCreater.m in Sources */,
+				D98091571F3D67B300D91D23 /* Bus.m in Sources */,
+				D98091541F3D67A900D91D23 /* SportsCar.m in Sources */,
 				D98090FB1F3AE96F00D91D23 /* CustomeTextField.m in Sources */,
 				D980911C1F3C366F00D91D23 /* EventView.m in Sources */,
 				D9173CFE1F39AC600069AB3E /* DecoratorPatternsViewController.m in Sources */,
@@ -748,9 +896,13 @@
 				987288191F3A0D3B00BF3054 /* Disk.m in Sources */,
 				D980911F1F3C39B000D91D23 /* ImageControl.m in Sources */,
 				D9173CB41F39A45C0069AB3E /* AppDelegate.m in Sources */,
+				D980914B1F3D643D00D91D23 /* BuildViewController.m in Sources */,
+				D98091431F3D58B700D91D23 /* BaseDevice.m in Sources */,
 				D9173D191F39B6AB0069AB3E /* ConsoleController.m in Sources */,
+				D98091401F3D588C00D91D23 /* AppleDevice.m in Sources */,
 				D9173CB11F39A45B0069AB3E /* main.m in Sources */,
 				9872881C1F3A0D4C00BF3054 /* Fan.m in Sources */,
+				D980913D1F3D587F00D91D23 /* AndriodDevice.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -13,7 +13,8 @@
 #import "ProtocoolViewController.h"
 #import "StrategyViewController.h"
 #import "TaegetViewController.h"
-
+#import "FactoryViewController.h"
+#import "BuildViewController.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property(nonatomic,strong)UITableView *mainTable;
 
@@ -63,7 +64,15 @@
         cell.textLabel.text = @"target-action设计模式";
         
         
+    }else if (indexPath.row == 6){
+        cell.textLabel.text = @"简单工厂设计模式";
+    
+    }else if (indexPath.row == 7){
+        cell.textLabel.text = @"生成器设计模式";
+        
+        
     }
+    
     
     return cell;
 }
@@ -99,6 +108,16 @@
     }else if (indexPath.row == 5){
         
         TaegetViewController *delegateVC = [[TaegetViewController alloc] init];
+        
+        [self.navigationController pushViewController:delegateVC animated:YES];
+    }else if (indexPath.row == 6){
+        
+        FactoryViewController *delegateVC = [[FactoryViewController alloc] init];
+        
+        [self.navigationController pushViewController:delegateVC animated:YES];
+    }else if (indexPath.row == 7){
+        
+        BuildViewController *delegateVC = [[BuildViewController alloc] init];
         
         [self.navigationController pushViewController:delegateVC animated:YES];
     }
