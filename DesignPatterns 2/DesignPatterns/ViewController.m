@@ -12,6 +12,7 @@
 #import "AdapterViewController.h"
 #import "ProtocoolViewController.h"
 #import "StrategyViewController.h"
+#import "TaegetViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property(nonatomic,strong)UITableView *mainTable;
@@ -58,6 +59,10 @@
         cell.textLabel.text = @"策略设计模式";
 
         
+    }else if (indexPath.row == 5){
+        cell.textLabel.text = @"target-action设计模式";
+        
+        
     }
     
     return cell;
@@ -89,6 +94,11 @@
     }else if (indexPath.row == 4){
         
         StrategyViewController *delegateVC = [[StrategyViewController alloc] init];
+        
+        [self.navigationController pushViewController:delegateVC animated:YES];
+    }else if (indexPath.row == 5){
+        
+        TaegetViewController *delegateVC = [[TaegetViewController alloc] init];
         
         [self.navigationController pushViewController:delegateVC animated:YES];
     }

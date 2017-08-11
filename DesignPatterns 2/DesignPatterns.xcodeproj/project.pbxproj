@@ -49,6 +49,12 @@
 		D980910E1F3AEC0400D91D23 /* UIButton+inits.m in Sources */ = {isa = PBXBuildFile; fileRef = D98091081F3AEC0400D91D23 /* UIButton+inits.m */; };
 		D980910F1F3AEC0400D91D23 /* UIInfomationView.m in Sources */ = {isa = PBXBuildFile; fileRef = D980910A1F3AEC0400D91D23 /* UIInfomationView.m */; };
 		D98091101F3AEC0400D91D23 /* UIView+SetRect.m in Sources */ = {isa = PBXBuildFile; fileRef = D980910C1F3AEC0400D91D23 /* UIView+SetRect.m */; };
+		D98091181F3C335A00D91D23 /* TaegetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D98091161F3C335A00D91D23 /* TaegetViewController.m */; };
+		D98091191F3C335A00D91D23 /* TaegetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D98091171F3C335A00D91D23 /* TaegetViewController.xib */; };
+		D980911C1F3C366F00D91D23 /* EventView.m in Sources */ = {isa = PBXBuildFile; fileRef = D980911B1F3C366E00D91D23 /* EventView.m */; };
+		D980911F1F3C39B000D91D23 /* ImageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D980911E1F3C39B000D91D23 /* ImageControl.m */; };
+		D98091211F3C3DB700D91D23 /* photo.png in Resources */ = {isa = PBXBuildFile; fileRef = D98091201F3C3DB700D91D23 /* photo.png */; };
+		D980912A1F3C435B00D91D23 /* NSObject+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = D98091291F3C435B00D91D23 /* NSObject+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -152,6 +158,16 @@
 		D980910A1F3AEC0400D91D23 /* UIInfomationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIInfomationView.m; sourceTree = "<group>"; };
 		D980910B1F3AEC0400D91D23 /* UIView+SetRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SetRect.h"; sourceTree = "<group>"; };
 		D980910C1F3AEC0400D91D23 /* UIView+SetRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SetRect.m"; sourceTree = "<group>"; };
+		D98091151F3C335A00D91D23 /* TaegetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaegetViewController.h; sourceTree = "<group>"; };
+		D98091161F3C335A00D91D23 /* TaegetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaegetViewController.m; sourceTree = "<group>"; };
+		D98091171F3C335A00D91D23 /* TaegetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TaegetViewController.xib; sourceTree = "<group>"; };
+		D980911A1F3C366E00D91D23 /* EventView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventView.h; sourceTree = "<group>"; };
+		D980911B1F3C366E00D91D23 /* EventView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventView.m; sourceTree = "<group>"; };
+		D980911D1F3C39B000D91D23 /* ImageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageControl.h; sourceTree = "<group>"; };
+		D980911E1F3C39B000D91D23 /* ImageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageControl.m; sourceTree = "<group>"; };
+		D98091201F3C3DB700D91D23 /* photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo.png; sourceTree = "<group>"; };
+		D98091281F3C435B00D91D23 /* NSObject+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Extension.h"; sourceTree = "<group>"; };
+		D98091291F3C435B00D91D23 /* NSObject+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -243,6 +259,7 @@
 		D9173CAE1F39A45B0069AB3E /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				D98091111F3C334800D91D23 /* Target_action */,
 				D98090F01F3AE93600D91D23 /* Strategy */,
 				9872880B1F3A0CFF00BF3054 /* Protocool */,
 				D9173D201F39B9DC0069AB3E /* Adapter */,
@@ -255,6 +272,7 @@
 				D9173CB61F39A45C0069AB3E /* ViewController.m */,
 				D9173CB81F39A45C0069AB3E /* Main.storyboard */,
 				D9173CBB1F39A45C0069AB3E /* Assets.xcassets */,
+				D98091201F3C3DB700D91D23 /* photo.png */,
 				D9173CBD1F39A45C0069AB3E /* LaunchScreen.storyboard */,
 				D9173CC01F39A45C0069AB3E /* Info.plist */,
 				D9173CAF1F39A45B0069AB3E /* Supporting Files */,
@@ -517,6 +535,46 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
+		D98091111F3C334800D91D23 /* Target_action */ = {
+			isa = PBXGroup;
+			children = (
+				D98091121F3C334800D91D23 /* Controller */,
+				D98091131F3C334800D91D23 /* Model */,
+				D98091141F3C334800D91D23 /* View */,
+			);
+			path = Target_action;
+			sourceTree = "<group>";
+		};
+		D98091121F3C334800D91D23 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D98091151F3C335A00D91D23 /* TaegetViewController.h */,
+				D98091161F3C335A00D91D23 /* TaegetViewController.m */,
+				D98091171F3C335A00D91D23 /* TaegetViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D98091131F3C334800D91D23 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D98091281F3C435B00D91D23 /* NSObject+Extension.h */,
+				D98091291F3C435B00D91D23 /* NSObject+Extension.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D98091141F3C334800D91D23 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D980911A1F3C366E00D91D23 /* EventView.h */,
+				D980911B1F3C366E00D91D23 /* EventView.m */,
+				D980911D1F3C39B000D91D23 /* ImageControl.h */,
+				D980911E1F3C39B000D91D23 /* ImageControl.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -624,7 +682,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9173CBF1F39A45C0069AB3E /* LaunchScreen.storyboard in Resources */,
+				D98091211F3C3DB700D91D23 /* photo.png in Resources */,
 				D9173CBC1F39A45C0069AB3E /* Assets.xcassets in Resources */,
+				D98091191F3C335A00D91D23 /* TaegetViewController.xib in Resources */,
 				D9173D131F39AD7A0069AB3E /* LoginViewController.xib in Resources */,
 				D9173CBA1F39A45C0069AB3E /* Main.storyboard in Resources */,
 				987288131F3A0D1F00BF3054 /* ProtocoolViewController.xib in Resources */,
@@ -666,6 +726,8 @@
 				D9173D271F39B9EC0069AB3E /* AdapterViewController.m in Sources */,
 				987288161F3A0D3400BF3054 /* Computer.m in Sources */,
 				D9173D2B1F39BA5D0069AB3E /* BusinessCardView.m in Sources */,
+				D98091181F3C335A00D91D23 /* TaegetViewController.m in Sources */,
+				D980912A1F3C435B00D91D23 /* NSObject+Extension.m in Sources */,
 				D9173D121F39AD7A0069AB3E /* LoginViewController.m in Sources */,
 				D9173D011F39AC600069AB3E /* Milk.m in Sources */,
 				D9173CB71F39A45C0069AB3E /* ViewController.m in Sources */,
@@ -674,6 +736,7 @@
 				D9173D091F39ACBA0069AB3E /* DelegateViewController.m in Sources */,
 				987288121F3A0D1F00BF3054 /* ProtocoolViewController.m in Sources */,
 				D98090FB1F3AE96F00D91D23 /* CustomeTextField.m in Sources */,
+				D980911C1F3C366F00D91D23 /* EventView.m in Sources */,
 				D9173CFE1F39AC600069AB3E /* DecoratorPatternsViewController.m in Sources */,
 				D98090AD1F3AB7E700D91D23 /* BaseModel.m in Sources */,
 				D9173D001F39AC600069AB3E /* Espresso.m in Sources */,
@@ -683,6 +746,7 @@
 				D980910D1F3AEC0400D91D23 /* RegExCategories.m in Sources */,
 				D98090FE1F3AE99E00D91D23 /* InputValidator.m in Sources */,
 				987288191F3A0D3B00BF3054 /* Disk.m in Sources */,
+				D980911F1F3C39B000D91D23 /* ImageControl.m in Sources */,
 				D9173CB41F39A45C0069AB3E /* AppDelegate.m in Sources */,
 				D9173D191F39B6AB0069AB3E /* ConsoleController.m in Sources */,
 				D9173CB11F39A45B0069AB3E /* main.m in Sources */,
