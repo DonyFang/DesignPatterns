@@ -67,6 +67,9 @@
 		D98091541F3D67A900D91D23 /* SportsCar.m in Sources */ = {isa = PBXBuildFile; fileRef = D98091531F3D67A900D91D23 /* SportsCar.m */; };
 		D98091571F3D67B300D91D23 /* Bus.m in Sources */ = {isa = PBXBuildFile; fileRef = D98091561F3D67B300D91D23 /* Bus.m */; };
 		D980915A1F3D680C00D91D23 /* VehicleAssemblyPlant.m in Sources */ = {isa = PBXBuildFile; fileRef = D98091591F3D680C00D91D23 /* VehicleAssemblyPlant.m */; };
+		D98091B41F3ECF4200D91D23 /* SingletonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D98091B21F3ECF4200D91D23 /* SingletonViewController.m */; };
+		D98091B51F3ECF4200D91D23 /* SingletonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D98091B31F3ECF4200D91D23 /* SingletonViewController.xib */; };
+		D98091B91F3ECF7C00D91D23 /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = D98091B81F3ECF7C00D91D23 /* Singleton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -204,6 +207,11 @@
 		D98091561F3D67B300D91D23 /* Bus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bus.m; sourceTree = "<group>"; };
 		D98091581F3D680C00D91D23 /* VehicleAssemblyPlant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleAssemblyPlant.h; sourceTree = "<group>"; };
 		D98091591F3D680C00D91D23 /* VehicleAssemblyPlant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VehicleAssemblyPlant.m; sourceTree = "<group>"; };
+		D98091B11F3ECF4200D91D23 /* SingletonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingletonViewController.h; sourceTree = "<group>"; };
+		D98091B21F3ECF4200D91D23 /* SingletonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingletonViewController.m; sourceTree = "<group>"; };
+		D98091B31F3ECF4200D91D23 /* SingletonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SingletonViewController.xib; sourceTree = "<group>"; };
+		D98091B71F3ECF7C00D91D23 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		D98091B81F3ECF7C00D91D23 /* Singleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -295,6 +303,7 @@
 		D9173CAE1F39A45B0069AB3E /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				D98091AD1F3ECF0C00D91D23 /* 单例模式 */,
 				D98091441F3D642800D91D23 /* Builder */,
 				D980912D1F3D574300D91D23 /* Factory */,
 				D98091111F3C334800D91D23 /* Target_action */,
@@ -715,6 +724,50 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		D98091AD1F3ECF0C00D91D23 /* 单例模式 */ = {
+			isa = PBXGroup;
+			children = (
+				D98091B61F3ECF6B00D91D23 /* Singleton */,
+				D98091AE1F3ECF0C00D91D23 /* Controller */,
+				D98091AF1F3ECF0C00D91D23 /* Model */,
+				D98091B01F3ECF0C00D91D23 /* View */,
+			);
+			path = "单例模式";
+			sourceTree = "<group>";
+		};
+		D98091AE1F3ECF0C00D91D23 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D98091B11F3ECF4200D91D23 /* SingletonViewController.h */,
+				D98091B21F3ECF4200D91D23 /* SingletonViewController.m */,
+				D98091B31F3ECF4200D91D23 /* SingletonViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D98091AF1F3ECF0C00D91D23 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D98091B01F3ECF0C00D91D23 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D98091B61F3ECF6B00D91D23 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				D98091B71F3ECF7C00D91D23 /* Singleton.h */,
+				D98091B81F3ECF7C00D91D23 /* Singleton.m */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -833,6 +886,7 @@
 				D980914C1F3D643D00D91D23 /* BuildViewController.xib in Resources */,
 				D9173D0A1F39ACBA0069AB3E /* DelegateViewController.xib in Resources */,
 				D98090F81F3AE95000D91D23 /* StrategyViewController.xib in Resources */,
+				D98091B51F3ECF4200D91D23 /* SingletonViewController.xib in Resources */,
 				D9173D281F39B9EC0069AB3E /* AdapterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -860,6 +914,7 @@
 			files = (
 				D980910E1F3AEC0400D91D23 /* UIButton+inits.m in Sources */,
 				D9173D1C1F39B6B90069AB3E /* ConsoleEmulator.m in Sources */,
+				D98091B41F3ECF4200D91D23 /* SingletonViewController.m in Sources */,
 				D98090A11F3AAB3100D91D23 /* SpecialModel.m in Sources */,
 				D98090F71F3AE95000D91D23 /* StrategyViewController.m in Sources */,
 				D98091501F3D649400D91D23 /* VehicleBuilder.m in Sources */,
@@ -894,6 +949,7 @@
 				D980910D1F3AEC0400D91D23 /* RegExCategories.m in Sources */,
 				D98090FE1F3AE99E00D91D23 /* InputValidator.m in Sources */,
 				987288191F3A0D3B00BF3054 /* Disk.m in Sources */,
+				D98091B91F3ECF7C00D91D23 /* Singleton.m in Sources */,
 				D980911F1F3C39B000D91D23 /* ImageControl.m in Sources */,
 				D9173CB41F39A45C0069AB3E /* AppDelegate.m in Sources */,
 				D980914B1F3D643D00D91D23 /* BuildViewController.m in Sources */,

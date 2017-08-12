@@ -15,6 +15,7 @@
 #import "TaegetViewController.h"
 #import "FactoryViewController.h"
 #import "BuildViewController.h"
+#import "SingletonViewController.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property(nonatomic,strong)UITableView *mainTable;
 
@@ -59,7 +60,6 @@
     }else if (indexPath.row == 4){
         cell.textLabel.text = @"策略设计模式";
 
-        
     }else if (indexPath.row == 5){
         cell.textLabel.text = @"target-action设计模式";
         
@@ -69,6 +69,10 @@
     
     }else if (indexPath.row == 7){
         cell.textLabel.text = @"生成器设计模式";
+        
+        
+    }else if (indexPath.row == 8){
+        cell.textLabel.text = @"单例设计模式";
         
         
     }
@@ -118,6 +122,11 @@
     }else if (indexPath.row == 7){
         
         BuildViewController *delegateVC = [[BuildViewController alloc] init];
+        
+        [self.navigationController pushViewController:delegateVC animated:YES];
+    }else if (indexPath.row == 8){
+        
+        SingletonViewController *delegateVC = [[SingletonViewController alloc] init];
         
         [self.navigationController pushViewController:delegateVC animated:YES];
     }
