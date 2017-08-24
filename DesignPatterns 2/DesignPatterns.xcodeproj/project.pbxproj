@@ -34,6 +34,12 @@
 		D9173D281F39B9EC0069AB3E /* AdapterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9173D261F39B9EC0069AB3E /* AdapterViewController.xib */; };
 		D9173D2B1F39BA5D0069AB3E /* BusinessCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9173D2A1F39BA5D0069AB3E /* BusinessCardView.m */; };
 		D9173D361F39BD870069AB3E /* BusinessCardAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = D9173D351F39BD870069AB3E /* BusinessCardAdapter.m */; };
+		D9210FE61F4BD8E100BCDC1F /* SalesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9210FE41F4BD8E100BCDC1F /* SalesViewController.m */; };
+		D9210FE71F4BD8E100BCDC1F /* SalesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9210FE51F4BD8E100BCDC1F /* SalesViewController.xib */; };
+		D9210FEA1F4BD96700BCDC1F /* FinanceDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = D9210FE91F4BD96700BCDC1F /* FinanceDepartment.m */; };
+		D9210FED1F4BD99A00BCDC1F /* SalesDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = D9210FEC1F4BD99A00BCDC1F /* SalesDepartment.m */; };
+		D9210FF01F4BDA3A00BCDC1F /* AfterSales.m in Sources */ = {isa = PBXBuildFile; fileRef = D9210FEF1F4BDA3A00BCDC1F /* AfterSales.m */; };
+		D9210FF31F4BDA6B00BCDC1F /* SalesServicesPeople.m in Sources */ = {isa = PBXBuildFile; fileRef = D9210FF21F4BDA6B00BCDC1F /* SalesServicesPeople.m */; };
 		D98090A11F3AAB3100D91D23 /* SpecialModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D98090A01F3AAB3100D91D23 /* SpecialModel.m */; };
 		D98090A41F3AAB4400D91D23 /* SpecialModelAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = D98090A31F3AAB4400D91D23 /* SpecialModelAdapter.m */; };
 		D98090A71F3AAB6100D91D23 /* NormalModelAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = D98090A61F3AAB6100D91D23 /* NormalModelAdapter.m */; };
@@ -144,6 +150,17 @@
 		D9173D331F39BC5C0069AB3E /* BusinessCardAdapterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessCardAdapterProtocol.h; sourceTree = "<group>"; };
 		D9173D341F39BD870069AB3E /* BusinessCardAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BusinessCardAdapter.h; path = ../Model/BusinessCardAdapter.h; sourceTree = "<group>"; };
 		D9173D351F39BD870069AB3E /* BusinessCardAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BusinessCardAdapter.m; path = ../Model/BusinessCardAdapter.m; sourceTree = "<group>"; };
+		D9210FE31F4BD8E100BCDC1F /* SalesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SalesViewController.h; sourceTree = "<group>"; };
+		D9210FE41F4BD8E100BCDC1F /* SalesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SalesViewController.m; sourceTree = "<group>"; };
+		D9210FE51F4BD8E100BCDC1F /* SalesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SalesViewController.xib; sourceTree = "<group>"; };
+		D9210FE81F4BD96700BCDC1F /* FinanceDepartment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinanceDepartment.h; sourceTree = "<group>"; };
+		D9210FE91F4BD96700BCDC1F /* FinanceDepartment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinanceDepartment.m; sourceTree = "<group>"; };
+		D9210FEB1F4BD99A00BCDC1F /* SalesDepartment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SalesDepartment.h; sourceTree = "<group>"; };
+		D9210FEC1F4BD99A00BCDC1F /* SalesDepartment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SalesDepartment.m; sourceTree = "<group>"; };
+		D9210FEE1F4BDA3A00BCDC1F /* AfterSales.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AfterSales.h; sourceTree = "<group>"; };
+		D9210FEF1F4BDA3A00BCDC1F /* AfterSales.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AfterSales.m; sourceTree = "<group>"; };
+		D9210FF11F4BDA6B00BCDC1F /* SalesServicesPeople.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SalesServicesPeople.h; sourceTree = "<group>"; };
+		D9210FF21F4BDA6B00BCDC1F /* SalesServicesPeople.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SalesServicesPeople.m; sourceTree = "<group>"; };
 		D980909F1F3AAB3100D91D23 /* SpecialModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpecialModel.h; path = ../NormalModel/SpecialModel.h; sourceTree = "<group>"; };
 		D98090A01F3AAB3100D91D23 /* SpecialModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SpecialModel.m; path = ../NormalModel/SpecialModel.m; sourceTree = "<group>"; };
 		D98090A21F3AAB4400D91D23 /* SpecialModelAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpecialModelAdapter.h; path = ../NormalModel/SpecialModelAdapter.h; sourceTree = "<group>"; };
@@ -303,6 +320,7 @@
 		D9173CAE1F39A45B0069AB3E /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				D9210FDD1F4BD8C900BCDC1F /* 外观模式 */,
 				D98091AD1F3ECF0C00D91D23 /* 单例模式 */,
 				D98091441F3D642800D91D23 /* Builder */,
 				D980912D1F3D574300D91D23 /* Factory */,
@@ -506,6 +524,64 @@
 			);
 			name = Protocool;
 			path = ../BridgeConnection/Protocool;
+			sourceTree = "<group>";
+		};
+		D9210FDD1F4BD8C900BCDC1F /* 外观模式 */ = {
+			isa = PBXGroup;
+			children = (
+				D9210FDE1F4BD8C900BCDC1F /* AfterSalesService(售后) */,
+				D9210FDF1F4BD8C900BCDC1F /* Controller */,
+				D9210FE01F4BD8C900BCDC1F /* FinanceDepartment(财务部门) */,
+				D9210FE11F4BD8C900BCDC1F /* SalesDepartment(销售部门) */,
+				D9210FE21F4BD8C900BCDC1F /* SalesService(销售人员) */,
+			);
+			path = "外观模式";
+			sourceTree = "<group>";
+		};
+		D9210FDE1F4BD8C900BCDC1F /* AfterSalesService(售后) */ = {
+			isa = PBXGroup;
+			children = (
+				D9210FEE1F4BDA3A00BCDC1F /* AfterSales.h */,
+				D9210FEF1F4BDA3A00BCDC1F /* AfterSales.m */,
+			);
+			path = "AfterSalesService(售后)";
+			sourceTree = "<group>";
+		};
+		D9210FDF1F4BD8C900BCDC1F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D9210FE31F4BD8E100BCDC1F /* SalesViewController.h */,
+				D9210FE41F4BD8E100BCDC1F /* SalesViewController.m */,
+				D9210FE51F4BD8E100BCDC1F /* SalesViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D9210FE01F4BD8C900BCDC1F /* FinanceDepartment(财务部门) */ = {
+			isa = PBXGroup;
+			children = (
+				D9210FE81F4BD96700BCDC1F /* FinanceDepartment.h */,
+				D9210FE91F4BD96700BCDC1F /* FinanceDepartment.m */,
+			);
+			path = "FinanceDepartment(财务部门)";
+			sourceTree = "<group>";
+		};
+		D9210FE11F4BD8C900BCDC1F /* SalesDepartment(销售部门) */ = {
+			isa = PBXGroup;
+			children = (
+				D9210FEB1F4BD99A00BCDC1F /* SalesDepartment.h */,
+				D9210FEC1F4BD99A00BCDC1F /* SalesDepartment.m */,
+			);
+			path = "SalesDepartment(销售部门)";
+			sourceTree = "<group>";
+		};
+		D9210FE21F4BD8C900BCDC1F /* SalesService(销售人员) */ = {
+			isa = PBXGroup;
+			children = (
+				D9210FF11F4BDA6B00BCDC1F /* SalesServicesPeople.h */,
+				D9210FF21F4BDA6B00BCDC1F /* SalesServicesPeople.m */,
+			);
+			path = "SalesService(销售人员)";
 			sourceTree = "<group>";
 		};
 		D980909D1F3AAB1E00D91D23 /* NormalModel */ = {
@@ -876,6 +952,7 @@
 			files = (
 				D9173CBF1F39A45C0069AB3E /* LaunchScreen.storyboard in Resources */,
 				D98091211F3C3DB700D91D23 /* photo.png in Resources */,
+				D9210FE71F4BD8E100BCDC1F /* SalesViewController.xib in Resources */,
 				D9173CBC1F39A45C0069AB3E /* Assets.xcassets in Resources */,
 				D98091191F3C335A00D91D23 /* TaegetViewController.xib in Resources */,
 				D9173D131F39AD7A0069AB3E /* LoginViewController.xib in Resources */,
@@ -929,23 +1006,28 @@
 				D9173D121F39AD7A0069AB3E /* LoginViewController.m in Sources */,
 				D98091341F3D575800D91D23 /* FactoryViewController.m in Sources */,
 				D9173D011F39AC600069AB3E /* Milk.m in Sources */,
+				D9210FF31F4BDA6B00BCDC1F /* SalesServicesPeople.m in Sources */,
 				D9173CB71F39A45C0069AB3E /* ViewController.m in Sources */,
 				D98090AA1F3AAB6D00D91D23 /* NormalModel.m in Sources */,
+				D9210FEA1F4BD96700BCDC1F /* FinanceDepartment.m in Sources */,
 				D980915A1F3D680C00D91D23 /* VehicleAssemblyPlant.m in Sources */,
 				D98091101F3AEC0400D91D23 /* UIView+SetRect.m in Sources */,
 				D9173D091F39ACBA0069AB3E /* DelegateViewController.m in Sources */,
 				987288121F3A0D1F00BF3054 /* ProtocoolViewController.m in Sources */,
+				D9210FE61F4BD8E100BCDC1F /* SalesViewController.m in Sources */,
 				D980913A1F3D57B600D91D23 /* DeviceCreater.m in Sources */,
 				D98091571F3D67B300D91D23 /* Bus.m in Sources */,
 				D98091541F3D67A900D91D23 /* SportsCar.m in Sources */,
 				D98090FB1F3AE96F00D91D23 /* CustomeTextField.m in Sources */,
 				D980911C1F3C366F00D91D23 /* EventView.m in Sources */,
+				D9210FF01F4BDA3A00BCDC1F /* AfterSales.m in Sources */,
 				D9173CFE1F39AC600069AB3E /* DecoratorPatternsViewController.m in Sources */,
 				D98090AD1F3AB7E700D91D23 /* BaseModel.m in Sources */,
 				D9173D001F39AC600069AB3E /* Espresso.m in Sources */,
 				D98090A41F3AAB4400D91D23 /* SpecialModelAdapter.m in Sources */,
 				D98091011F3AEBE500D91D23 /* EmailValidator.m in Sources */,
 				D98091041F3AEBF400D91D23 /* PhoneNumberValidator.m in Sources */,
+				D9210FED1F4BD99A00BCDC1F /* SalesDepartment.m in Sources */,
 				D980910D1F3AEC0400D91D23 /* RegExCategories.m in Sources */,
 				D98090FE1F3AE99E00D91D23 /* InputValidator.m in Sources */,
 				987288191F3A0D3B00BF3054 /* Disk.m in Sources */,

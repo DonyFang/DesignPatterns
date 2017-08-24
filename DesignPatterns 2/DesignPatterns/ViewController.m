@@ -16,6 +16,7 @@
 #import "FactoryViewController.h"
 #import "BuildViewController.h"
 #import "SingletonViewController.h"
+#import "SalesViewController.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property(nonatomic,strong)UITableView *mainTable;
 
@@ -75,7 +76,12 @@
         cell.textLabel.text = @"单例设计模式";
         
         
+    }else if (indexPath.row == 9){
+        cell.textLabel.text = @"外观设计模式";
+        
+        
     }
+
     
     
     return cell;
@@ -127,6 +133,11 @@
     }else if (indexPath.row == 8){
         
         SingletonViewController *delegateVC = [[SingletonViewController alloc] init];
+        
+        [self.navigationController pushViewController:delegateVC animated:YES];
+    }else if (indexPath.row == 9){
+        
+        SalesViewController *delegateVC = [[SalesViewController alloc] init];
         
         [self.navigationController pushViewController:delegateVC animated:YES];
     }
