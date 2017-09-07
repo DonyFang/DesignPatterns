@@ -34,6 +34,9 @@
 		D9173D281F39B9EC0069AB3E /* AdapterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9173D261F39B9EC0069AB3E /* AdapterViewController.xib */; };
 		D9173D2B1F39BA5D0069AB3E /* BusinessCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9173D2A1F39BA5D0069AB3E /* BusinessCardView.m */; };
 		D9173D361F39BD870069AB3E /* BusinessCardAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = D9173D351F39BD870069AB3E /* BusinessCardAdapter.m */; };
+		D91929BC1F4EBE6200FD3C66 /* Girl.m in Sources */ = {isa = PBXBuildFile; fileRef = D91929BB1F4EBE6200FD3C66 /* Girl.m */; };
+		D91929BF1F4EBF3B00FD3C66 /* Finery.m in Sources */ = {isa = PBXBuildFile; fileRef = D91929BE1F4EBF3B00FD3C66 /* Finery.m */; };
+		D91929C21F4EC03300FD3C66 /* Shoes.m in Sources */ = {isa = PBXBuildFile; fileRef = D91929C11F4EC03300FD3C66 /* Shoes.m */; };
 		D9210FE61F4BD8E100BCDC1F /* SalesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9210FE41F4BD8E100BCDC1F /* SalesViewController.m */; };
 		D9210FE71F4BD8E100BCDC1F /* SalesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9210FE51F4BD8E100BCDC1F /* SalesViewController.xib */; };
 		D9210FEA1F4BD96700BCDC1F /* FinanceDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = D9210FE91F4BD96700BCDC1F /* FinanceDepartment.m */; };
@@ -150,6 +153,12 @@
 		D9173D331F39BC5C0069AB3E /* BusinessCardAdapterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessCardAdapterProtocol.h; sourceTree = "<group>"; };
 		D9173D341F39BD870069AB3E /* BusinessCardAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BusinessCardAdapter.h; path = ../Model/BusinessCardAdapter.h; sourceTree = "<group>"; };
 		D9173D351F39BD870069AB3E /* BusinessCardAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BusinessCardAdapter.m; path = ../Model/BusinessCardAdapter.m; sourceTree = "<group>"; };
+		D91929BA1F4EBE6200FD3C66 /* Girl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Girl.h; sourceTree = "<group>"; };
+		D91929BB1F4EBE6200FD3C66 /* Girl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Girl.m; sourceTree = "<group>"; };
+		D91929BD1F4EBF3B00FD3C66 /* Finery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Finery.h; sourceTree = "<group>"; };
+		D91929BE1F4EBF3B00FD3C66 /* Finery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Finery.m; sourceTree = "<group>"; };
+		D91929C01F4EC03300FD3C66 /* Shoes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shoes.h; sourceTree = "<group>"; };
+		D91929C11F4EC03300FD3C66 /* Shoes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shoes.m; sourceTree = "<group>"; };
 		D9210FE31F4BD8E100BCDC1F /* SalesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SalesViewController.h; sourceTree = "<group>"; };
 		D9210FE41F4BD8E100BCDC1F /* SalesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SalesViewController.m; sourceTree = "<group>"; };
 		D9210FE51F4BD8E100BCDC1F /* SalesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SalesViewController.xib; sourceTree = "<group>"; };
@@ -398,6 +407,12 @@
 				D9173CF81F39AC600069AB3E /* Espresso.m */,
 				D9173CF91F39AC600069AB3E /* Milk.h */,
 				D9173CFA1F39AC600069AB3E /* Milk.m */,
+				D91929BA1F4EBE6200FD3C66 /* Girl.h */,
+				D91929BB1F4EBE6200FD3C66 /* Girl.m */,
+				D91929BD1F4EBF3B00FD3C66 /* Finery.h */,
+				D91929BE1F4EBF3B00FD3C66 /* Finery.m */,
+				D91929C01F4EC03300FD3C66 /* Shoes.h */,
+				D91929C11F4EC03300FD3C66 /* Shoes.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -990,6 +1005,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D980910E1F3AEC0400D91D23 /* UIButton+inits.m in Sources */,
+				D91929BC1F4EBE6200FD3C66 /* Girl.m in Sources */,
 				D9173D1C1F39B6B90069AB3E /* ConsoleEmulator.m in Sources */,
 				D98091B41F3ECF4200D91D23 /* SingletonViewController.m in Sources */,
 				D98090A11F3AAB3100D91D23 /* SpecialModel.m in Sources */,
@@ -1004,9 +1020,11 @@
 				D98091181F3C335A00D91D23 /* TaegetViewController.m in Sources */,
 				D980912A1F3C435B00D91D23 /* NSObject+Extension.m in Sources */,
 				D9173D121F39AD7A0069AB3E /* LoginViewController.m in Sources */,
+				D91929BF1F4EBF3B00FD3C66 /* Finery.m in Sources */,
 				D98091341F3D575800D91D23 /* FactoryViewController.m in Sources */,
 				D9173D011F39AC600069AB3E /* Milk.m in Sources */,
 				D9210FF31F4BDA6B00BCDC1F /* SalesServicesPeople.m in Sources */,
+				D91929C21F4EC03300FD3C66 /* Shoes.m in Sources */,
 				D9173CB71F39A45C0069AB3E /* ViewController.m in Sources */,
 				D98090AA1F3AAB6D00D91D23 /* NormalModel.m in Sources */,
 				D9210FEA1F4BD96700BCDC1F /* FinanceDepartment.m in Sources */,
